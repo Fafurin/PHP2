@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+     {% for img in gallery %}
+         <a href="{{ img.src }}">
+            <img width="200" height="200" src="{{ img.src }}">
+         </a>
+     {% endfor %}
+</body>
+</html>
